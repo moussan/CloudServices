@@ -1,0 +1,50 @@
+[
+  {
+    "id": "aws-ec2",
+    "provider": "AWS",
+    "name": "EC2",
+    "type": "Compute",
+    "description": "Scalable virtual servers in the cloud",
+    "comparable": "Compute"
+  },
+  {
+    "id": "azure-vm",
+    "provider": "Azure",
+    "name": "Virtual Machines",
+    "type": "Compute",
+    "description": "Scalable virtual machines",
+    "comparable": "Compute"
+  },
+  {
+    "id": "gcp-compute-engine",
+    "provider": "GCP",
+    "name": "Compute Engine",
+    "type": "Compute",
+    "description": "Scalable virtual machines",
+    "comparable": "Compute"
+  },
+  {
+    "id": "aws-s3",
+    "provider": "AWS",
+    "name": "S3",
+    "type": "Storage",
+    "description": "Object storage service",
+    "comparable": "Object Storage"
+  },
+  {
+    "id": "azure-blob",
+    "provider": "Azure",
+    "name": "Blob Storage",
+    "type": "Storage",
+    "description": "Object storage for cloud-native and high-scalability applications",
+    "comparable": "Object Storage"
+  },
+  {
+    "id": "gcp-storage",
+    "provider": "GCP",
+    "name": "Cloud Storage",
+    "type": "Storage",
+    "description": "Object storage service",
+    "comparable": "Object Storage"
+  }
+] 

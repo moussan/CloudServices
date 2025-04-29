@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom themes */
+.theme-light {
+  @apply bg-white text-gray-900;
+}
+.theme-dark {
+  @apply bg-gray-900 text-white;
+}
+.theme-dark-neon {
+  @apply bg-black text-accent-neon;
+}
+.theme-pastel {
+  @apply bg-pink-100 text-purple-900;
+}
+
+/* header & footer styles */
+header, footer {
+  @apply py-4;
+} 
